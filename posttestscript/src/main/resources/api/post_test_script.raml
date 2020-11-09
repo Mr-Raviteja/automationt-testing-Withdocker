@@ -1,0 +1,31 @@
+#%RAML 1.0
+title: Post_Test_script
+
+types:
+  Customer: !include /customer-dataType.raml
+
+/customers:
+  displayName: Perform customer operations.
+  description: This api is used to register, login, subscribe, unsubscribe, update subscription, and reset password in My Train application. This is also used to fetch all train stations
+  
+  /registrations:
+    displayName: Registerations operations.
+    description: This api is used to perform register, update, deactivate, and activate                        customer functionality.
+
+    /registerUser:
+      displayName: Register User.
+      description: This api is used to register customer in My Train application.
+      
+      post:
+        body:
+          application/json:
+            description: Payload should be object containing customer details.
+            type: Customer
+            examples: 
+             input: !include /customer-example.raml
+        responses:
+          200:
+            body: 
+              application/json:
+                example:
+                  message: User registered successfully successfully.

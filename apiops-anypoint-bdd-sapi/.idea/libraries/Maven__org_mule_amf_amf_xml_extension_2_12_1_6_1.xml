@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.mule.amf:amf-xml-extension_2.12:1.6.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/amf/amf-xml-extension_2.12/1.6.1/amf-xml-extension_2.12-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/amf/amf-xml-extension_2.12/1.6.1/amf-xml-extension_2.12-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/amf/amf-xml-extension_2.12/1.6.1/amf-xml-extension_2.12-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

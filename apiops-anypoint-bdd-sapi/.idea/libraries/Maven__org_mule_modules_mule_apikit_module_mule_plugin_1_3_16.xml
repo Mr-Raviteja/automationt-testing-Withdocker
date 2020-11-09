@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.mule.modules:mule-apikit-module:mule-plugin:1.3.16">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/modules/mule-apikit-module/1.3.16/mule-apikit-module-1.3.16-mule-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/modules/mule-apikit-module/1.3.16/mule-apikit-module-1.3.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mule/modules/mule-apikit-module/1.3.16/mule-apikit-module-1.3.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
