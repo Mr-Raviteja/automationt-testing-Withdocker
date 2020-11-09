@@ -19,7 +19,7 @@ pipeline {
     stage('Build image') {
       steps {
         script {
-          dockerImage= docker.build("njc/apiops-anypoint-bdd-sapi")
+          dockerImage= docker.build("ravisunny27/apiops-anypoint-bdd-sapi")
         }
 
         echo 'image built'
@@ -29,7 +29,7 @@ pipeline {
     stage('Run container') {
       steps {
         script {
-          bat 'docker run -itd -p 8081:8081 --name apiops-anypoint-bdd-sapi  njc/apiops-anypoint-bdd-sapi'
+          bat 'docker run -itd -p 8081:8081 --name apiops-anypoint-bdd-sapi  ravisunny27/apiops-anypoint-bdd-sapi'
         }
 
         echo 'container running'
